@@ -1,3 +1,4 @@
+//seccion nav
 .contenedor__navigation--title {
     font-family: $spartan;
     font-weight: 600;
@@ -5,4 +6,23 @@
     span {
         font-size: xx-small;
     }
+}
+
+//seccion section
+.paragraph {
+    &__name {
+        font-family: $montserrat;
+        font-weight: 900;
+        font-size: 1.2rem;
+    }
+
+    &__follower {
+        font-family: $open-sans;
+        font-size: .85rem;
+    }
+}
+
+.button {
+    font-family: $montserrat;
+    font-size: .9rem;
 }

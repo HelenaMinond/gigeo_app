@@ -10636,6 +10636,21 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, p, ul, li, i {
   font-size: xx-small;
 }
 
+.paragraph__name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+.paragraph__follower {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.85rem;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+
 .contenedor {
   display: grid;
   grid-template-columns: 1fr;
@@ -10665,6 +10680,46 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, p, ul, li, i {
   background-image: url(../images/image-banner.png);
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.contenedor__profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #C0C0C0;
+  align-items: center;
+  padding: 1rem 5rem;
+}
+.contenedor__profile--contact {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 2rem;
+  align-items: center;
+}
+.contenedor__profile--contact img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+.paragraph__follower {
+  color: gray;
+}
+
+.button__first {
+  background-color: #97DCE3;
+  border: 0px solid;
+  color: #FFFFFF;
+  width: 5rem;
+  padding: 0.5rem 0;
+  margin-right: 0.5rem;
+}
+.button__second {
+  background-color: #E95466;
+  border: 0px solid;
+  color: #FFFFFF;
+  width: 5rem;
+  padding: 0.5rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

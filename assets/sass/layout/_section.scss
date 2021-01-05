@@ -1,0 +1,46 @@
+.contenedor__profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid $silver;
+    align-items: center;
+    padding: 1rem 5rem;
+
+    &--contact {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-column-gap: 2rem;
+        align-items: center;
+
+        img {
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+        }
+    }
+}
+
+.paragraph {
+    &__follower {
+        color: gray;
+    }
+}
+
+.button {
+    &__first {
+        background-color: $celeste;
+        border: 0px solid;
+        color: #FFFFFF;
+        width: 5rem;
+        padding: .5rem 0;
+        margin-right: .5rem;
+    }
+
+    &__second {
+        background-color: $rojizo;
+        border: 0px solid;
+        color: #FFFFFF;
+        width: 5rem;
+        padding: .5rem 0;
+    }
+}
