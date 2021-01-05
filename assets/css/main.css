@@ -10636,11 +10636,17 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, p, ul, li, i {
   font-size: xx-small;
 }
 
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, auto);
+}
+
 .contenedor__navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2rem 5em;
+  padding: 1.5rem 4.5rem 1rem 4.5rem;
 }
 .contenedor__navigation--title span {
   vertical-align: top;
@@ -10652,6 +10658,13 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, p, ul, li, i {
 }
 .contenedor__navigation--list ul i {
   padding-left: 2rem;
+}
+
+.contenedor__header {
+  height: 220px;
+  background-image: url(../images/image-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=main.css.map */
