@@ -1,0 +1,20 @@
+.contenedor__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 5em;
+
+    &--title span {
+        vertical-align: top;
+    }
+
+    &--list ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        i {
+            padding-left: 2rem;
+        }
+    }
+}

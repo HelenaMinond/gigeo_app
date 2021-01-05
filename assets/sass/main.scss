@@ -1,9 +1,9 @@
+//Vendors
+@import 'vendors/bootstrap-5.0.0-beta1/bootstrap.scss';
+
 //Abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
-
-//Vendors
-@import 'vendors/bootstrap-5.0.0-beta1/';
 
 //Base
 @import 'base/reset';
@@ -11,8 +11,9 @@
 @import 'base/base';
 
 //Layout
-@import 'layout/sidebar';
 @import 'layout/main';
+@import 'layout/main';
+@import 'layout/nav';
 
 //Components
 @import 'components/buttons';
