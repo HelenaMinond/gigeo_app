@@ -1,0 +1,24 @@
+.contenedor__main {
+    padding: 2rem 3rem 1rem 5rem;
+
+    &--title {
+        padding-bottom: 2rem;
+    }
+
+    &--column img {
+        height: auto;
+        width: auto;
+        max-height: 300px;
+        max-width: 300px;
+        padding-right: 2rem;
+    }
+
+    &--column h5 {
+        color: #000000;
+    }
+
+    &--column p {
+        color: grey;
+        padding-bottom: 1rem;
+    }
+}

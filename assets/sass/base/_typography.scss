@@ -26,3 +26,18 @@
     font-family: $montserrat;
     font-size: .9rem;
 }
+
+//seccion main
+.contenedor__main {
+    
+    &--title {
+        font-family: $montserrat;
+        font-weight: 500;
+    }
+
+    &--column h5 {
+        font-family: $montserrat;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+}

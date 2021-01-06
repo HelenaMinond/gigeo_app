@@ -10623,7 +10623,7 @@ textarea.form-control-lg {
   box-sizing: border-box;
 }
 
-body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, p, ul, li, i {
+body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, p, ul, li, i, img {
   padding: 0;
   margin: 0;
 }
@@ -10651,10 +10651,41 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, p, ul, li, i {
   font-size: 0.9rem;
 }
 
+.contenedor__main--title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.contenedor__main--column h5, .contenedor__main--column .h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
 .contenedor {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, auto);
+}
+
+.contenedor__main {
+  padding: 2rem 3rem 1rem 5rem;
+}
+.contenedor__main--title {
+  padding-bottom: 2rem;
+}
+.contenedor__main--column img {
+  height: auto;
+  width: auto;
+  max-height: 300px;
+  max-width: 300px;
+  padding-right: 2rem;
+}
+.contenedor__main--column h5, .contenedor__main--column .h5 {
+  color: #000000;
+}
+.contenedor__main--column p {
+  color: grey;
+  padding-bottom: 1rem;
 }
 
 .contenedor__navigation {
