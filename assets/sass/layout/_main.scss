@@ -1,24 +1,54 @@
-.contenedor__main {
-    padding: 2rem 3rem 1rem 5rem;
-
-    &--title {
-        padding-bottom: 2rem;
+//Media queris para diseño mobile (extra small and small devices)
+@media only screen and (max-width: 767.98px) {
+    .contenedor__main {
+        padding: 1rem 3rem 3rem 3rem;
+    
+        &--title {
+            padding-bottom: 1.5rem;
+            text-align: center;
+        }
+    
+        &--column img {
+            height: auto;
+            width: auto;
+            max-height: 300px;
+            max-width: 300px;  
+        }
+    
+        &--column h5 {
+            color: #000000;
+        }
+    
+        &--column p {
+            color: grey;
+            padding-bottom: 1rem;
+        }
     }
+}
 
-    &--column img {
-        height: auto;
-        width: auto;
-        max-height: 300px;
-        max-width: 300px;
-        padding-right: 2rem;
-    }
+//Media queris para diseño desktop (medium, large and extra large devices)
+@media only screen and (min-width: 768px) {
+    .contenedor__main {
+        padding: 2rem 4rem;
 
-    &--column h5 {
-        color: #000000;
-    }
+        &--title {
+            padding-bottom: 2rem;
+        }
 
-    &--column p {
-        color: grey;
-        padding-bottom: 1rem;
+        &--column img {
+            height: auto;
+            width: auto;
+            max-height: 250px;
+            max-width: 250px;  
+        }
+
+        &--column h5 {
+            color: #000000;
+        }
+
+        &--column p {
+            color: grey;
+            padding-bottom: 1rem;
+        }
     }
 }
