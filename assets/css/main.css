@@ -10666,6 +10666,9 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, auto);
 }
+.contenedor__line {
+  border-bottom: 1px solid #C0C0C0;
+}
 
 @media only screen and (max-width: 767.98px) {
   .contenedor__main {
@@ -10728,7 +10731,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5rem 4.5rem 1rem 4.5rem;
+    padding: 1.5rem 0 1rem 0;
   }
   .contenedor__navigation--title span {
     vertical-align: top;
@@ -10792,9 +10795,8 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid #C0C0C0;
     align-items: center;
-    padding: 1rem 5rem;
+    padding: 1rem 0;
   }
   .contenedor__profile--contact {
     display: grid;
