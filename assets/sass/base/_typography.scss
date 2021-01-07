@@ -1,10 +1,7 @@
 //seccion nav
-.contenedor__navigation--title {
-    font-family: $spartan;
-    font-weight: 600;
-
-    span {
-        font-size: xx-small;
+.contenedor__navigation {
+    &--list i {
+        font-size: 1.33em;
     }
 }
 
@@ -39,5 +36,9 @@
         font-family: $montserrat;
         font-weight: 700;
         font-size: 1.1rem;
+    }
+
+    &--column p {
+        font-family: $open-sans;
     }
 }

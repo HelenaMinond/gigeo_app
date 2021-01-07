@@ -10628,12 +10628,8 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   margin: 0;
 }
 
-.contenedor__navigation--title {
-  font-family: "Spartan", sans-serif;
-  font-weight: 600;
-}
-.contenedor__navigation--title span {
-  font-size: xx-small;
+.contenedor__navigation--list i {
+  font-size: 1.33em;
 }
 
 .paragraph__name {
@@ -10659,6 +10655,9 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
+}
+.contenedor__main--column p {
+  font-family: "Open Sans", sans-serif;
 }
 
 .contenedor {
