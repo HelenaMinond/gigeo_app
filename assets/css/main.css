@@ -10714,8 +10714,8 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
     justify-content: space-between;
     padding: 2rem 3rem;
   }
-  .contenedor__navigation--title span {
-    vertical-align: top;
+  .contenedor__navigation--title svg {
+    width: 10rem;
   }
   .contenedor__navigation--list ul {
     display: flex;
@@ -10731,10 +10731,11 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.5rem 0 1rem 0;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
   }
-  .contenedor__navigation--title span {
-    vertical-align: top;
+  .contenedor__navigation--title svg {
+    width: 10rem;
   }
   .contenedor__navigation--list ul {
     display: flex;
@@ -10815,7 +10816,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
   }
 
   .button__first {
-    background-color: #97DCE3;
+    background-color: #92DCE5;
     border: 0px solid;
     color: #FFFFFF;
     width: 5rem;
@@ -10823,7 +10824,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
     margin-right: 0.5rem;
   }
   .button__second {
-    background-color: #E95466;
+    background-color: #EF6461;
     border: 0px solid;
     color: #FFFFFF;
     width: 5rem;
