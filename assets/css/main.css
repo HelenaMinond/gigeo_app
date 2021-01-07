@@ -10669,17 +10669,14 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 
 @media only screen and (max-width: 767.98px) {
   .contenedor__main {
-    padding: 1rem 3rem 3rem 3rem;
+    padding: 1.5rem 2rem;
   }
   .contenedor__main--title {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     text-align: center;
   }
   .contenedor__main--column img {
-    height: auto;
-    width: auto;
-    max-height: 300px;
-    max-width: 300px;
+    width: 100%;
   }
   .contenedor__main--column h5, .contenedor__main--column .h5 {
     color: #000000;
@@ -10691,16 +10688,13 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
 }
 @media only screen and (min-width: 768px) {
   .contenedor__main {
-    padding: 2rem 4rem;
+    padding: 2rem 0;
   }
   .contenedor__main--title {
     padding-bottom: 2rem;
   }
   .contenedor__main--column img {
-    height: auto;
-    width: auto;
-    max-height: 250px;
-    max-width: 250px;
+    width: 100%;
   }
   .contenedor__main--column h5, .contenedor__main--column .h5 {
     color: #000000;
@@ -10762,6 +10756,7 @@ body, div, nav, header, section, main, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .
     height: 220px;
     background-image: url(../images/image-banner.png);
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }

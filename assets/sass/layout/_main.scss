@@ -1,24 +1,21 @@
 //Media queris para diseño mobile (extra small and small devices)
 @media only screen and (max-width: 767.98px) {
     .contenedor__main {
-        padding: 1rem 3rem 3rem 3rem;
-    
+        padding: 1.5rem 2rem;
+
         &--title {
-            padding-bottom: 1.5rem;
+            padding-bottom: 2rem;
             text-align: center;
         }
-    
+
         &--column img {
-            height: auto;
-            width: auto;
-            max-height: 300px;
-            max-width: 300px;  
+            width: 100%;
         }
-    
+
         &--column h5 {
             color: #000000;
         }
-    
+
         &--column p {
             color: grey;
             padding-bottom: 1rem;
@@ -27,19 +24,16 @@
 }
 
 //Media queris para diseño desktop (medium, large and extra large devices)
-@media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 768px) {
     .contenedor__main {
-        padding: 2rem 4rem;
+        padding: 2rem 0;
 
         &--title {
             padding-bottom: 2rem;
         }
 
         &--column img {
-            height: auto;
-            width: auto;
-            max-height: 250px;
-            max-width: 250px;  
+            width: 100%;
         }
 
         &--column h5 {
