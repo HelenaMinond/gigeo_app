@@ -30,6 +30,11 @@
             color: gray;
         }
     }
+
+    //**Linea de separacion de secciones section y main
+    .contenedor__line {
+        display: none;
+    }
 }
 
 //Media queris para diseño desktop (medium, large and extra large devices)
@@ -78,5 +83,10 @@
             width: 5rem;
             padding: .5rem 0;
         }
+    }
+
+    //**Linea de separacion de secciones section y main
+    .contenedor__line {
+        border-bottom: 1px solid $silver;
     }
 }
