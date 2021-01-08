@@ -6,6 +6,10 @@
             margin: 1rem 2rem;
         }
 
+        &--list i {
+            font-size: 1.33em;
+        }
+
         &--list .icon {
             display: none;
         }
@@ -33,6 +37,7 @@
         list-style: none;
         
         i {
+            font-size: 1.33em;
             padding-left: 2rem;
         }
     }
